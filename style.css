@@ -1,0 +1,41 @@
+body{
+    background: blueviolet;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+header{
+    color: #fff;
+    text-align: center;
+}
+section{
+    background: #fff;
+    border-radius: 1.5vw;
+    margin: auto;
+    text-align: center;
+    padding: 1vw;
+    width: 450px;
+    height: 450px;
+    box-shadow: #360d0db2 2px 3px 5px;
+}
+footer{
+    text-align: center;
+    font-style: italic;
+    color: #fff;
+}
+
+img{
+    transform: translateY(0px);
+    animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%{
+        transform: translateY(10px);
+    }
+    50%{
+        transform: translateY(30px)
+    }
+    100%{
+        transform: translateY(10px);
+    }
+}
